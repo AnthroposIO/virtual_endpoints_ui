@@ -1,0 +1,27 @@
+{
+    "name": "virtual_endpoints_ui",
+    "version": "1.0.0",
+    "description": "Virtual Endpoints UI is a web based testing tool for hitting the hard outer shell of the Anthropos eco-system.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "esbuild --bundle src/app.js --outfile=dist/app.js --servedir=dist",
+        "build": "esbuild --bundle src/app.js --outfile=dist/app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/andy-monis/virtual_endpoints_ui.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/andy-monis/virtual_endpoints_ui/issues"
+    },
+    "homepage": "https://github.com/andy-monis/virtual_endpoints_ui#readme",
+    "dependencies": {
+        "esbuild": "0.17.19",
+        "vue": "^3.3.4",
+        "whatwg-fetch": "^3.6.2"
+    },
+    "devDependencies": {}
+}
