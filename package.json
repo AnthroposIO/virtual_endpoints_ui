@@ -19,9 +19,9 @@
     },
     "homepage": "https://github.com/andy-monis/virtual_endpoints_ui#readme",
     "dependencies": {
-        "esbuild": "0.17.19",
+        "esbuild": "^0.17.19",
+        "mqtt": "^4.3.7",
         "vue": "^3.3.4",
         "whatwg-fetch": "^3.6.2"
-    },
-    "devDependencies": {}
+    }
 }
